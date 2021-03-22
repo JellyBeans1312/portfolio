@@ -1,0 +1,15 @@
+nav {
+  background-color: #26408b;
+  display: flex;
+  align-items: flex-start;
+  height: 64px;
+
+  .name {
+    font-weight: bold;
+    color: #fe5e41;
+    display: inline;
+    text-transform: uppercase;
+    font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    margin-left: 3rem;
+  }
+}

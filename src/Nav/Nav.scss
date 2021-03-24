@@ -1,15 +1,31 @@
 nav {
   background-color: #26408b;
   display: flex;
-  align-items: flex-start;
   height: 64px;
-
-  .name {
-    font-weight: bold;
+  color: #fe5e41;
+  font-weight: bold;
+  justify-content: center;
+  .link-container {
+    display: inline-grid;
+    grid-template-columns: repeat(8, 7rem);
+    max-width: 800px;
+    align-self: center;
+  }
+  .navlink {
+    text-decoration: none;
     color: #fe5e41;
+    font-size:1.1rem;
+    margin: 0 5px;
+    font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+  }
+  .navlink:hover {
+    color: #f0f6f6
+  }
+  .name {
+    align-self: center;
     display: inline;
     text-transform: uppercase;
     font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
-    margin-left: 3rem;
+    font-size: 2rem;
   }
 }
